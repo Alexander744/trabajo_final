@@ -66,7 +66,10 @@ span {
     height: 1.7rem;
     width: 5rem;
 }
-
+.a2 {
+    text-decoration: none;
+    color: #242E52;
+}
 
 /* section 1 */
 #container2 {
@@ -611,3 +614,18 @@ span {
     }
 
 }
+/* PSEUDOCLASES */
+.a2:active {
+    background: #3CDDF3;
+    color: red;
+}
+.a2:link  {
+    background-color: #FAFAFA;
+}   
+.a2:hover {
+    color: #948c8d;
+}
+.contenedor3 p:first-of-type {
+    color: #FFFFFF;
+}
+  
